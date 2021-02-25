@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1E48BB25E8518F00589E3C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E48BA25E8518F00589E3C /* SwiftyJSON.swift */; };
 		3F7CE79D25DD810900EB88C9 /* Programing_JokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7CE79C25DD810900EB88C9 /* Programing_JokesApp.swift */; };
 		3F7CE79F25DD810900EB88C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7CE79E25DD810900EB88C9 /* ContentView.swift */; };
 		3F7CE7A125DD810F00EB88C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CE7A025DD810F00EB88C9 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1E48BA25E8518F00589E3C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		3F7CE79925DD810900EB88C9 /* Programing Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programing Jokes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7CE79C25DD810900EB88C9 /* Programing_JokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programing_JokesApp.swift; sourceTree = "<group>"; };
 		3F7CE79E25DD810900EB88C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				3F7CE79E25DD810900EB88C9 /* ContentView.swift */,
 				3F7CE7A025DD810F00EB88C9 /* Assets.xcassets */,
 				3F7CE7A525DD810F00EB88C9 /* Info.plist */,
+				3F1E48BA25E8518F00589E3C /* SwiftyJSON.swift */,
 				3F7CE7A225DD810F00EB88C9 /* Preview Content */,
 			);
 			path = "Programing Jokes";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1E48BB25E8518F00589E3C /* SwiftyJSON.swift in Sources */,
 				3F7CE79F25DD810900EB88C9 /* ContentView.swift in Sources */,
 				3F7CE79D25DD810900EB88C9 /* Programing_JokesApp.swift in Sources */,
 			);

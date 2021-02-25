@@ -26,7 +26,23 @@ struct ContentView: View {
 
     }
     func getJokes() {
-        let apiKey = "?rapidapi-key= 42b30bc2c7mshd4f8918bdf9e17ep1df390jsn6fab5580756c"
+        let apiKey = "?rapidapi-key=42b30bc2c7mshd4f8918bdf9e17ep1df390jsn6fab5580756c"
+        let query = "https://dad-jokes.p.rapidapi.com/joke/type/programming\(apiKey)"
+        if let url = URL(string: query) {
+                 if let data = try? Data(contentsOf: url) {
+                     let json = try! JSON(data: data)
+                     if json["success"] == true {
+                        let contents = json["body"].arrayValue
+                        for item in contents {
+                                                let setup = item["setup"].stringValue
+                                                let punchline = item["punchline"].stringValue
+                                                let joke = Joke(setup: setup, punchline: punchline)
+                                                jokes.append(joke)
+                                            }
+                     }
+                 }
+             }
+
     }
 }
 
